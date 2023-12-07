@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-weight: 400;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.top__nav-sec {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;z-index: 9999;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.logo a {
+    height: 40px;
+}
+.logo img {
+    width: 100px;
+}
+
+.round__btn {
+    width: 150px;
+    padding: 5px 10px;
+    background: hotpink;
+}
+
+.links__section {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links__wraper{
+    margin-right: 50px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    margin: 50px auto;
+    background: url('../images/girl-1868930_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.user__img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 100px;
+    background: rgba(245, 245, 245, 0.349);
+    border: 2px solid hotpink;
+    overflow: hidden;
+}
+
+.user__img img {
+    transform: translateX(-40px);
+    width: 300px;
+}
+
+.right__header {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.pink {
+    color: hotpink;
+}
+
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 10px;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    gap: 10px;
+}
+.rounded_btn {
+    background: rgba(255, 255, 255, 0.685);
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.main__body {
+    width: 80%;
+    margin: 100px auto;
+}
+
+button:hover{
+    cursor: pointer;
+    background: hotpink;
+    transition: .5s ease-in-out;
+    color: white;
+}
+
+.posts__images {
+    gap: 10px;
+}
+
+aside {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+footer {
+    width: 80%;margin: auto;
+}
